@@ -13,10 +13,11 @@ To enable this:
 
 1. Run ngrok to open a named tunnel to this device: `ngrok http --subdomain qpi 80`
 2. Add this ngrok domain as a Webhook destination for the repository you're working on
+
+![Webhooks](docs/webhooks.png)
+
 3. Create a Procfile in the root directory of the git repository
 3. Run `gitsync` from the root directory of the git repository
-
-IMAGE HERE
 
 ## Procfiles
 As on Heroku, the Procfile is used to instruct GitSync how to re-run the application after a sync is completed.
